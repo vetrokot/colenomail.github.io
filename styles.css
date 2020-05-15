@@ -1,0 +1,89 @@
+header{
+	width: 100%;
+	background: #D8E30A;
+	height: 20%;
+	background-color: black;
+	background-image: url("C:/Users/vetrokot/Desktop/colenopost/kolenomail/colenopost/title.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	align-content: center; 
+	justify-content: flex-end; 
+	overflow: auto; 
+ }
+
+
+
+#bodydiv {
+	width: 100%;
+	height: 70%;
+ background-color: #ccdde8;
+  display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: space-around;
+	
+    overflow: auto;  
+}
+
+#end{
+	width: 100%;
+	height: 10%;
+	background-color: #a5c4d9;
+	display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;  
+	
+}
+
+.textbox {
+width: 350px;
+height: auto;  
+background-color: #a5c4d9;
+font-size: 15pt;
+margin: 0px; /* Значение отступов */
+border: 2px solid #f5c358; /* Параметры границы */
+padding: 1px;
+font-family: 'Arial', monospace;
+text-align: center; 
+}
+
+.submitbox {
+background-color: #dde6ed;
+font-size: 16pt;
+width: 350px;
+height: auto;
+margin: 2px; /* Значение отступов */
+border: 2px solid #f5c358; /* Параметры границы */
+padding: 1px;
+font-family: 'Arial', monospace;
+text-align: center; 
+}
+
+.costbox
+{
+background-color: #dde6ed;
+font-size: 16pt;
+width: 380px;
+height: 100px;
+margin: 2px; /* Значение отступов */
+border: 2px solid #f5c358; /* Параметры границы */
+padding: 1px;
+font-family: 'Arial', monospace;
+text-align: center; 
+}
+
+.userheader {
+	width: 200px;
+	height: 30px;  
+	background-color: #c5cad9;
+	font-size: 12pt;
+	margin: 10px; /* Значение отступов */
+	border: 2px solid #f5c358; /* Параметры границы */
+	padding: 1px;
+	font-family: 'Arial', monospace;
+	text-align: center; 
+	}

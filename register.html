@@ -1,0 +1,66 @@
+<html>
+<head> 
+<style> 
+@import url("styles.css");
+</style>
+</head> 
+
+<body>
+ 
+
+<header> /*шапка сайта*/ </header> 
+
+<div id="bodydiv"> 
+	<form action="index.html" method="get">
+	<p><input required type="text" id="username" placeholder="имя" class="textbox" ></p>
+	
+	
+	
+	<input list="cities" name="continent_2" type="text" class="textbox">
+	<datalist id="cities">
+  <option value="Киев, Отделение 1, ул.аппапу45">
+  <option value="Киев, Отделение 2, ул.аппапу45">
+  <option value="Киев, Отделение 3, ул.аппапу45">
+  <option value="Харьков, Отделение 4, ул.аппапу45">
+  <option value="Харьков, Отделение 5, ул.аппапу45">
+  <option value="Харьков, Отделение 6, ул.аппапу45">
+  <option value="Львов, Отделение 7, ул.аппапу45">
+  <option value="Львов, Отделение 8, ул.аппапу45">
+  <option value="Львов, Отделение 9, ул.аппапу45">
+	</datalist>
+	
+	<p><input required type="text" id="login_reg" placeholder="номер телефона" class="textbox" ></p>
+	<p><input required type="password" id="password1" placeholder="пароль" class="textbox"></p>
+	<p><input required type="password" id="password2" placeholder="подтвердите пароль" class="textbox"></p>
+	<p><input type="submit" value="зарегистрироваться" class="submitbox" ></p>
+	</form>
+	
+	<script>
+	window.onload = function () {
+    document.getElementById("password1").onchange = validatePassword;
+    document.getElementById("password2").onchange = validatePassword;
+}
+function validatePassword(){
+var pass2=document.getElementById("password2").value;
+var pass1=document.getElementById("password1").value;
+if(pass1!=pass2)
+    document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+else
+     document.getElementById("password2").setCustomValidity(''); 
+//empty string means no validation error
+
+function userReg () {
+
+}
+ }
+ 
+</script>
+	
+</div> 
+<div id="end">
+end
+</div> 
+
+
+</body>
+</html>
